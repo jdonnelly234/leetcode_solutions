@@ -3,7 +3,7 @@
 
 # Given an integer x, return true if x is a palindrome, and false otherwise.
 
-# String based
+# String based - two pointers
 
 # Time complexity = O(n) - str(x) creation requires n time when n = number of digits in x
 # Space complexity = O(n) - str(x) conversion creates new string of size n (number of digits)
