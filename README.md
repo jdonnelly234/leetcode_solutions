@@ -1,2 +1,3 @@
 # leetcode_solutions
-Original solutions for various Leetcode problems
+My personal solutions to LeetCode problems, written in (mostly) Python.
+Includes both brute-force and optimized approaches where possible with explanations and complexity analysis.
