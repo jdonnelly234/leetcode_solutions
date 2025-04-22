@@ -48,14 +48,14 @@ def is_palindrome_optimised(x):
 
     return (x == rev_half) or (x == rev_half // 10)
 
-x = 12321
-y = 532
-z = -43
+a = 12321
+b = 532
+c = -43
 
-print(is_palindrome(x)) # Correct output - True
-print(is_palindrome(y)) # Correct output - False
-print(is_palindrome(z)) # Correct output - False
+print(is_palindrome(a)) # Correct output - True
+print(is_palindrome(b)) # Correct output - False
+print(is_palindrome(c)) # Correct output - False
 
-print(is_palindrome_optimised(x)) # Correct output - True
-print(is_palindrome_optimised(y)) # Correct output - False
-print(is_palindrome_optimised(z)) # Correct output - False
+print(is_palindrome_optimised(a)) # Correct output - True
+print(is_palindrome_optimised(b)) # Correct output - False
+print(is_palindrome_optimised(c)) # Correct output - False
