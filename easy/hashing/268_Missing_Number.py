@@ -2,7 +2,7 @@
 # Given an array nums containing n distinct numbers in the range [0, n], return the only number in
 # the range that is missing from the array.
 
-# Optimal
+# Optimal (kinda Gauss' formula)
 # Time complexity = O(n) - two for loops to get expectal total and actual total to calculate difference, O(n) + O(n)
 #                          = O(2n) = O(n)
 # Space complexity = O(1) - only primitive data types used to track total counts, no additional data structures needed
