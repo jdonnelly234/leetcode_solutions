@@ -6,7 +6,8 @@
 # A string s is good if all the characters that appear in s have the same number of occurrences (i.e., the same frequency).
 
 # Optimal with defaultdict(int)
-# Time complexity = O(n) - populating hash map requires one loop over s where n = len(s)
+# Time complexity = O(n) - populating hash map requires one loop over s where n = len(s) and covnerting to set requires
+#                          n operations similarly, O(2n) = O(n)
 # Space complexity = O(n) - worst case with very long string where occurence count of each char is never equal
 
 from collections import defaultdict
