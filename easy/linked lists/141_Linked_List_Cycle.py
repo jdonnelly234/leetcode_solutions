@@ -1,7 +1,5 @@
 # 141. Linked List Cycle
 # https://leetcode.com/problems/linked-list-cycle/description/
-import unittest
-
 
 # Given head, the head of a linked list, determine if the linked list has a cycle in it.
 #
@@ -15,6 +13,8 @@ import unittest
 # Time complexity = O(n) - worst case is entire linked list is traversed when there is no cycle, or list is very large
 #                          and cycle is not found till the end
 # Space complexity = O(1) - only int's used for slow and fast pointers
+
+import unittest
 
 class ListNode(object):
     def __init__(self, x):
